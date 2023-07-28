@@ -1,0 +1,41 @@
+body {
+  height:100%;
+  width:100%;
+  margin: 6px;
+  padding:4px;
+  font-family: Arial, sans-serif;
+  background-color: aquamarine;
+}
+.gallery {
+  padding:10px;
+  border:1px solid black;
+  border-radius: 6px;
+  max-width:100%;
+  justify-content: space-between;
+  width:100%;
+}
+  
+.today {
+  display: flex;
+  width:auto;/* Adjust the width as per your preference */
+  margin:2px;
+}
+  
+img {
+  height:20%;
+  width: auto;
+  margin:3px;
+  border-radius: 8px;
+  display: flex;
+  transition: transform 0.3s ease-in-out; /* CSS transition for smooth scaling effect */
+}
+  
+img:hover {
+  transform: scale(1.2); /* Scale up the image on hover */
+}
+.yesterday {
+  display: flex;
+  width: 80%; /* Adjust the width as per your preference */
+  margin:2px;
+  border-radius: 2px;
+}

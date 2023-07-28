@@ -1,0 +1,32 @@
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    background-color: blanchedalmond;
+}
+.container{
+    width:100%;
+    height:auto;
+    border:1px solid black;
+    padding:10px;
+    box-sizing:border-box;
+    font-size: large;
+    font-weight: 100;
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    position:fixed;
+    background-color:rgb(112, 209, 233);
+    border:1px solid black;
+    height: 80px;
+    opacity:0.9;
+}
+.nav-links li {
+    display: inline;
+    margin: 50px;
+}
